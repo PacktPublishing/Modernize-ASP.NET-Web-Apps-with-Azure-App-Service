@@ -7,10 +7,12 @@ By the end of this course, you will have the skills to use Azure App Service to 
 <H2>What You Will Learn</H2>
 <DIV class=book-info-will-learn-text>
 <UL>
-<LI>Use MongoDB on the cloud. 
-<LI>Create REST API 
-<LI>Learn real-world professional web development. 
-<LI>Integrate MongoDB from NodeJS </LI></UL></DIV>
+<LI>What Azure App Service is and what it does
+<LI>Provision App Service, configure it, and deploy your applications on it
+<LI>Modernize your application using the microservice, serverless, and container approach
+<LI>Use powerful App Service features for scalability, high availability, security, network connectivity, or business continuity
+<LI>Automate and industrialize your provisioning and deployment
+<LI>Test, scale, and secure your application on Azure infrastructures  </LI></UL></DIV>
 
 ## Instructions and Navigation
 ### Assumed Knowledge
