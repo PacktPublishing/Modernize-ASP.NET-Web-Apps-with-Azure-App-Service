@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <UserSecretsId>aab2e735-5d4c-4844-842b-bfa96a463643</UserSecretsId>
+    <ApplicationInsightsResourceId>/subscriptions/6c61b844-86ec-4ff5-8774-c8eea6481ff6/resourcegroups/pkt-musicstore-rg/providers/microsoft.insights/components/pkt-musicstore-web</ApplicationInsightsResourceId>
+    <ApplicationInsightsAnnotationResourceId>/subscriptions/6c61b844-86ec-4ff5-8774-c8eea6481ff6/resourcegroups/pkt-musicstore-rg/providers/microsoft.insights/components/pkt-musicstore-web</ApplicationInsightsAnnotationResourceId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Models\SampleData.cs" />
+    <Compile Remove="Models\ShoppingCart.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="2.1.4" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services" />
+  </ItemGroup>
+
+</Project>
